@@ -1,0 +1,16 @@
+        <script type="text/javascript">
+            $(window).load(function() {
+                $('.button').duckHunt({
+                    'enterOn' : 'konami-code', //timer, konami-code, click
+                        'delayTime' : 5000 //time before dog appears on timer mode
+                    });
+                });
+        </script>
+
+        <a href="#" class="button"></a>
+    
+        <img id="duckHuntDog" style="display: block; position: fixed; bottom: -700px; right: 400px;" src="duckhunt/dog.png">
+        <audio style="visibility:hidden;" id="perfectScore" preload="auto">
+            <source src="duckhunt/perfectScore.mp3">
+            <source src="duckhunt/perfectScore.ogg">
+        </audio>
