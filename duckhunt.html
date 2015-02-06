@@ -1,4 +1,26 @@
-        <script type="text/javascript">
+  <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title></title>
+
+    </head>
+ 
+    <body>
+        <div id="container">
+            <header></header>
+            <main></main>
+            <footer></footer>
+        </div><!--end container-->
+
+    <script src="js/jquery.js"></script>
+    <script src="dog.js"></script>
+
+         <script type="text/javascript">
             $(window).load(function() {
                 $('.button').duckHunt({
                     'enterOn' : 'konami-code', //timer, konami-code, click
@@ -9,8 +31,15 @@
 
         <a href="#" class="button"></a>
     
-        <img id="duckHuntDog" style="display: block; position: fixed; bottom: -700px; right: 400px;" src="duckhunt/dog.png">
+        <img id="duckHuntDog" style="display: block; position: fixed; bottom: -700px; right: 50%;" src="dog.png">
         <audio style="visibility:hidden;" id="perfectScore" preload="auto">
-            <source src="duckhunt/perfectScore.mp3">
-            <source src="duckhunt/perfectScore.ogg">
+            <source src="perfectScore.mp3">
+            <source src="perfectScore.ogg">
         </audio>
+    </body>
+</html>
+      
+
+
+        
+
