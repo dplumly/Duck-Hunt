@@ -29,8 +29,8 @@
 			
 			
 			//Dog Vars
-			var raptorImageMarkup = '<img id="duckHuntDog" style="display: none" src="js/dog.png" />'
-			var raptorAudioMarkup = '<audio id="dogLaugh" preload="auto"><source src="js/perfectScore.mp3" /><source src="js/perfectScore.ogg" /></audio>';	
+			var raptorImageMarkup = '<img id="duckHuntDog" style="display: none" src="dog.png" />'
+			var raptorAudioMarkup = '<audio id="dogLaugh" preload="auto"><source src="perfectScore.mp3" /><source src="js/perfectScore.ogg" /></audio>';	
 			var locked = false;
 			
 			//Append Dog and Style
@@ -39,7 +39,7 @@
 			var raptor = $('#duckHuntDog').css({
 				"position":"fixed",
 				"bottom": "-700px",
-				"right" : "400",
+				"right" : "50%",
 				"display" : "block"
 			})
 			
@@ -68,7 +68,7 @@
 						}, 1500, function() {
 							raptor = $('#duckHuntDog').css({
 								"bottom": "-700px",
-								"right" : "0"
+								"right" : "50%"
 							})
 							locked = false;
 						})
