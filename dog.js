@@ -39,7 +39,7 @@
 			var raptor = $('#duckHuntDog').css({
 				"position":"fixed",
 				"bottom": "-700px",
-				"right" : "50%",
+				"left" : "37%",
 				"display" : "block"
 			})
 			
@@ -68,7 +68,7 @@
 						}, 1500, function() {
 							raptor = $('#duckHuntDog').css({
 								"bottom": "-700px",
-								"right" : "50%"
+								"left" : "37%"
 							})
 							locked = false;
 						})
